@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>To Do List</h1>
+        <div class="to-doApp">
+            <div class="to-doApp__upper">
+                <input id="new-todo-item" type="text" placeholder="Enter your text here">
+
+            <!--Submit Button / Add button -->
+            <button id="add-to-button" onclick="addTodoItem()">Add</button>
+
+            </div>
+            
+            
+            <!-- List Display -->
+
+            <ul id="todo-list"></ul>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
